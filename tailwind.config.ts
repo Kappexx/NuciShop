@@ -9,9 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        // 'massimowomen1': "url('../../public/img/massimokids.jpeg')",
+        'massimowomen': "url('../app/img/massimocover/women.jpeg')",
+        'massimomen': "url('../app/img/massimocover/massimomen.webp')",
+        'massimokids': "url('../app/img/massimocover/massimokids.jpeg')",
+        'masimmoaccesories': "url('../app/img/massimocover/massimoaccesories.jpeg')",
+        'masimmnewcover': "url('../app/img/massimocover/womenmass1.jpeg')"
+        
       },
     },
   },
